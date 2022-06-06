@@ -1,0 +1,162 @@
+
+*{
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+
+.content h2{
+    margin-top: 10%;
+}
+
+.content{
+	width :70%;
+    height: 100vh;
+    background-position: center ;
+    background-size: cover;
+    padding-left: 45%;
+    margin-top: 40%;
+    margin-bottom: 20%;
+    box-sizing: border-box;
+}
+
+.colour-select div{
+    background: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.colour-select{
+    display: flex;
+    margin-top: 20px;
+}
+
+.colour-select #red{
+    background: red;
+
+}
+
+.colour-select #white{
+    background: white;
+    border: 2px solid black;
+}
+
+.colour-select #blue{
+    background: blue;
+}
+
+.colour-select #black{
+    background: black;
+}
+
+.colour-select #grey{
+    background: grey;
+}
+
+.maindiv{
+	background: url(../images/red.webp) no-repeat;
+	background-size: cover;
+    background-position: center;
+	height: 100vh;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3{
+	color: white;
+	font-size:40px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    font-family: "Open Sans";
+    /* padding-top: 40px; */
+    color: #fff;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@font-face 
+{font-family:myFirstFont;src: url(Carton_Slab.otf);}
+.font{font-family:myFirstFont;}
+
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-top: 35px;
+}
+
+.navbar ul{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 5px 10px;
+	/* padding-left: 1%; */
+	font-weight: 600;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+	font-style: unset;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    padding-right: 10px;
+
+}
+.navbar .btn1{
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+.navbar .btn2{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: green;
+	border-radius: 6px;
+}

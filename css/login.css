@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+}
+
+  .contact-section{
+    background: url(../images/login.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+    height: 100vh;
+  }
+
+  .contact-section h1{
+    text-align: center;
+    color: black;
+	font-family: sans-serif;
+  }
+
+  .border{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+  }
+  
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    padding-left: 250px;
+  }
+  
+  .contact-form-text,select{
+    display: block;
+    width: 60%;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: grey;
+    padding: 2px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.3s;
+    border-radius: 24px;
+  }
+
+ 
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+ 
+
+  /* #loginid label{
+    display: inline;
+    color: black;
+  } */
+  /* .btn1{
+    float: center ;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  } */
+
+  #id1{
+    border: 2px solid  white;
+    background: red;
+    font-size: 15px;
+    font-weight: 700;
+  }
+ 
+  #id1:hover{
+  background: silver;
+  }
+
+  
+  footer{
+    position: absolute;
+    bottom: 0;
+    font-family: "Open Sans";
+    /* padding-top: 40px; */
+    color: #fff;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	/* background: rgba(0,0,0,0.4);  */
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 50px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: green;
+	border-radius: 2px;
+}
+

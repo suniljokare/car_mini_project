@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/car.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  </head>
+  <body>
+
+<div class="contact-section">
+    <nav class="navbar">
+        <!-- <img class="logo" src="logo3.jpeg"> -->
+        <a href="main.html"><img src="images/CARS.jpeg"  class="logo"></a> 
+
+        <ul>
+            <li><a class="" href="main.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <!-- <li><a href="#">Feedback</a></li> -->
+        </ul>
+    </nav>
+  <!-- <div class="border"></div> --> <br> <br> <br> <br> <br>
+  <h1>SIGN IN</h1>   <br> <br> 
+    
+  <form class="contact-form" action="sub.html" onsubmit="return validateForm()" method="post">
+
+    <select id="market">
+      <optgroup label="North America" >
+          <option>Select Market</option>
+          <option>United state</option>
+          <option>Mexico</option>
+          <option>Portu</option>
+      </optgroup>
+      <optgroup label="Asia pacefic">
+          <option>Australia</option>
+          <option>Zew Zealand</option>;
+          <option>Hongkong</option>
+      </optgroup>
+
+      <optgroup label="Middle East">
+        <option>UAE</option>
+        <option>Soudi Arebia</option>
+        <option>Oman</option>
+        <option>Qatar</option>
+
+      </optgroup><optgroup label="Europe ">
+        <option>Poland</option>
+        <option>France</option>
+        <option>Cezch Republic</option>
+        <option>laxemburg</option>
+        <option>UK</option>
+        <option>Spain</option>
+        <option>Italy</option>
+      </optgroup>
+    </select>
+
+    <input type="text" class="contact-form-text" id="fname" onblur="validate2()"  placeholder="name">
+    <span id="error2"></span>
+    <input type="tel" class="contact-form-text" id="mobile" onblur="validate3()" placeholder=" phone">
+    <span id="error3"></span>
+    <input type="email" class="contact-form-text" id="emailid" onblur="validate4()" placeholder="email">
+    <span id="error4"></span>
+    <input type="password" class="contact-form-text" id="pass" onblur="validate5()" placeholder="password">  
+     <span id="error5"></span>
+    <br> <br><input type="submit" class="contact-form-text" id="id1" value="CREATE ACCOUNT">
+     
+   
+  </form>
+</div>
+
+<footer>
+    <div class="footer-bottom">
+        <p>copyright &copy;2022 Car-X. designed by @SUNEEL JOKARE</p>
+    </div>    
+</footer>
+
+ <script src="login.js"></script>
+  </body>
+</html>
+

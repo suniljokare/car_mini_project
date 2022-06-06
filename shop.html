@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>CAR-X</title>
+</head>
+
+
+
+<body>
+
+
+    
+    <div id="header" class="header">
+        <nav>
+           <a href="main.html"><img src="images/CARS.jpeg"  class="logo"></a> 
+            <ul>
+                <li><a href="#" id="model 3">Charging</a></li>
+                <li><a href="#" id="model s">vehicle Accesories</a></li>
+                <li><a href="#" id="model x">Apparel X</a></li>
+                <li><a href="#" id="model y">Lifestyle </a></li>
+            </ul>
+        </nav> 
+        <div class="title">
+            <h2>Order Online for <a href="">Touchless Delivery</a>
+                </h2>
+            
+        </div>
+        <div>
+        </div>
+        <div id="b1">
+            <h1 style="color: white;">Wall Connector</h1>  <br>
+            
+            <h3>The Most Convient Way To Charge at Home</h3>
+        </div>
+        <div class="btns">
+            <div>
+                <a href="modelS.html" class="order">shop now </a>
+                <!-- <a href="#" class="existing">Existing Inventory</a> -->
+            </div>
+        </div> 
+
+        
+    </div>
+    
+
+    <footer>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 Car-X. designed by @SUNEEL JOKARE</p>
+        </div>
+    </footer>
+
+    <script>
+
+
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+
+
+        var header = document.getElementById('header');
+        var title = document.getElementById('title');
+        var m3 = document.getElementById('model 3');
+        var ms = document.getElementById('model s');
+        var mx = document.getElementById('model x');
+        var my = document.getElementById('model y');
+        
+        m3.onclick = function(){
+            header.style.backgroundImage = "url(images/model-3.jpg)"
+        }   
+
+        ms.onclick = function(){
+            header.style.backgroundImage = "url(images/image-3.png)"
+        }
+
+        mx.onclick = function(){
+            header.style.backgroundImage = "url(images/modelY.jpg)"
+        }   
+
+        my.onclick = function(){
+            header.style.backgroundImage = "url(images/modelsy.jpg)"
+        }
+        
+        
+        </script>
+</body>
+</html>

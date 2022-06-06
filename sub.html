@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <title>CAR-X</title>
+</head>
+
+
+<body>
+    <div id="header" class="header">
+        <nav>
+           <a href="main.html"><img src="images/CARS.jpeg"  class="logo"></a> 
+            <ul>
+                <li><a href="#" id="model 3">Model 3</a></li>
+                <li><a href="#" id="model s">Model S</a></li>
+                <li><a href="#" id="model x">Model X</a></li>
+                <li><a href="#" id="model y">Model Y</a></li>
+            </ul>
+            <a href="#" class="btn1">Menu</a>
+            <a href="login.html" class="btn2">Account</a>
+        </nav>
+        <div class="title">
+            <h2>Order Online for <a href="">Touchless Delivery</a>
+                </h2>
+        </div>
+        <div class="btns">
+            <div>
+                <a href="modelS.html" class="order">Custom Order</a>
+                <a href="#" class="existing">Existing Inventory</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 Car-X. designed by @SUNEEL JOKARE</p>
+        </div>
+    </footer>
+
+    <script>
+
+        var header = document.getElementById('header');
+        var title = document.getElementById('title');
+        var m3 = document.getElementById('model 3');
+        var ms = document.getElementById('model s');
+        var mx = document.getElementById('model x');
+        var my = document.getElementById('model y');
+        
+        m3.onclick = function(){
+            header.style.backgroundImage = "url(images/model-3.jpg)"
+        }   
+
+        ms.onclick = function(){
+            header.style.backgroundImage = "url(images/image-1.png)"
+        }
+
+        mx.onclick = function(){
+            header.style.backgroundImage = "url(images/image-4.png)"
+        }   
+
+        my.onclick = function(){
+            header.style.backgroundImage = "url(images/model-y.jpg)"
+        }
+        
+        $(document).ready(function(){
+        $(".header").slideUp(0).slideDown(1000);
+     
+    });
+        
+        </script>
+</body>
+</html>

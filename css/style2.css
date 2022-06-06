@@ -1,0 +1,207 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+    width :100%;
+    height: 100vh;
+    background-image: url(../images/BAG.jpg);
+    background-position: center ;
+    background-size: cover;
+    padding-left: 15%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+	background-image: url(../images/image-1.png) no-repeat;
+
+}
+
+.col{
+    flex-basis: 110%;
+}
+
+.card{
+    width: 300px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+	padding-bottom: 10%;
+	margin-bottom: 400px;
+}
+
+#id1{
+    height: 60%;
+
+
+}
+.card:hover{
+    transform: translateY(-10px);
+
+}
+
+.card1{
+    background-image: url(images/image-1.png);  
+}
+
+.card2{
+    background-image: url(images/image-2.png);
+}
+
+.card3{
+    background-image: url(images/image-3.png);
+}
+
+.card4{
+    background-image: url(images/image-4.png);
+}
+
+
+.maindiv{
+	background: url(images/image-1.png) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: green;
+	border-radius: 2px;
+}
+.maindiv .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3{
+	color: white;
+	font-size:40px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	outline: none;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+}
+.buttons .btn2{
+	margin-left: 25px;
+}
+.buttons button:hover{
+	background: #cc0000;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    font-family: "Open Sans";
+    /* padding-top: 40px; */
+    color: #fff;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@font-face 
+{font-family:myFirstFont;src: url(Carton_Slab.otf);}
+.font{font-family:myFirstFont;}
+
+
+
+.title h1{
+	padding-bottom: 20px;
+	  padding-top: 120px;
+	  padding-left: 35%;
+	  font-size: 50px;
+  }
+  
+.title h4{
+	padding-bottom: 20px;
+	  padding-top: 10px;
+	  padding-left: 30%;
+	  display: inline;
+	  font-size: 20px;
+	  color: black;
+	  font-family: serif;
+  
+  }

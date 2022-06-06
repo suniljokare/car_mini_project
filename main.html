@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR-X</title>
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<style>
+
+    
+</style>
+
+<!-- <script> 
+
+    $(document).ready(function() { 
+        var photo = $(".maindiv"); 
+        console.log(photo)
+        // photo.css({"background-image": "url(dirts.jpg)"});  
+        var myphotos = [ "dirts.jpg" ,"con.jpg","home.jpg","dm2.jpg","BAG2.jpg" ]; 
+
+var y = 0; 
+
+setInterval(function () { 
+
+
+// Returns 0, 1, 2, 3, 0, 1, 2, .... 
+
+       y = (y + 1) % myphotos.length; 
+
+       photo.fadeOut(900, function(){ 
+
+    //    $(this).css("background-image" , myphotos[y]); 
+
+       $(this).css({
+            'background-image' : "url('" + myphotos[y] + "')"  });
+       $(this).fadeIn(20); }); 
+   }, 3000); }); 
+
+</script> -->
+
+    <script> 
+    $(document).ready(function(){
+        $(".maindiv").slideUp(0).slideDown(1000);
+     
+    });
+    </script>
+
+<div class="maindiv">
+    <nav class="navbar"> 
+        <br><br>
+        <img class="logo" src="images/CARS.jpeg">
+    
+        <ul>
+            <!-- <li><a class="" href="#">Home</a></li> -->
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="login.html">Account</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="center">  
+        <h1 class="font">CAR-X </h1>
+        <h5>Life is a Journey. Enjoy the Ride</h5> br
+    <div class="buttons">
+         <a href="sub.html" style="color: white;"><button> <h3>EXPLORE</h3> </button></a> 
+        <button class="btn2">JOIN US</button>
+    </div>  
+</div>
+
+    <footer>
+        <div class="footer-bottom">
+            <p>copyright &copy;2022 Car-X. designed by @SUNEEL JOKARE</p>
+        </div>
+    </footer>
+</html>

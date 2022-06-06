@@ -1,0 +1,262 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+    width :100%;
+    height: 100vh;
+    background-image: url(../images/model-3.jpg);
+    background-position: center ;
+    background-size: cover;
+    padding-left: 15%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+	background-image: url(../images/image-1.png) no-repeat;
+
+}
+
+.col{
+    padding-top: 50%;
+    flex-basis: 100%;
+	box-shadow:  #888888;
+}
+.c1{
+	background-image: url(../images/bg.png);
+	height: 50%;
+
+}
+
+.card{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+	/* background-image: linear-gradient(black, white); */
+	/* background-color: #000; */
+    /* transition: transform 0.5s; */
+}
+
+
+
+button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #ffb3b3;
+	background: red;
+	/* outline: none; */
+	outline: auto;
+	cursor: pointer;
+	border: 1px solid #cc0000;
+	border-radius: 25px;
+	transition: .4s;
+	text-align: center;
+
+}
+
+button{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+#id1{
+    height: 60%;
+}
+
+.btn2{
+	/* margin-left: 25px; */
+	padding-top: 10%;
+}
+
+button:hover{
+    transform: translateY(-10px);
+	background-color: silver;
+
+}
+
+h4{
+	color: white;
+	font-size:30px;
+	/* width: 50px; */
+	font-weight: bold;
+	text-align: center;
+}
+
+
+#order{
+	color: white;
+	font-size:20px;
+	/* width: 50px; */
+	font-weight: bold;
+	text-align: center;
+	box-sizing: border-box;
+	border-radius: 25px;
+
+
+}
+h6{
+	color: white;
+	font-size:15px;
+	/* width: 50px; */
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+.maindiv{
+	background: url(images/image-1.png) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+.maindiv .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h3{
+	color: white;
+	font-size:40px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.center h2{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin-top: 10px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    font-family: "Open Sans";
+    /* padding-top: 40px; */
+    color: #fff;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+@font-face 
+{font-family:myFirstFont;src: url(Carton_Slab.otf);}
+.font{font-family:myFirstFont;}
+
+.title h1{
+	/* padding-top: 10%; */
+    /* flex-basis: 10%;	 */
+	padding-bottom: 600px;
+	/* padding-bottom: 600%; */
+	padding-left: 300%;
+	font-size: 40px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+	font-style: unset;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+	padding: 10px;
+}
+nav .btn1{
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+nav .btn2{
+    color: #000;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: green;
+	border-radius: 6px;
+}
+
+#ids2{
+	background-image: url(../images/image-2.png);
+}
+
+#ids3{
+	background-image: url(../images/image-4.png);
+}
+#ids4{
+	background-image: url(../images/model-y.jpg);
+}
+
+
+
