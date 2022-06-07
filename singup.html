@@ -25,13 +25,13 @@
   <!-- <div class="border"></div> --> <br> <br> <br> <br> <br>
   <h1>SIGN IN</h1>   <br> <br> 
     
-  <form class="contact-form" action="sub.html" onsubmit="return validateForm()" method="post">
+  <form class="contact-form" action="sub.html" onsubmit="return validateForm()"  novalidate>
 
-    <select id="market">
+    <select id="market" onblur="validate1()"  placeholder="Select Markets">
       <optgroup label="North America" >
-          <option>Select Market</option>
+          <!-- <option>Select Market</option> -->
           <option>United state</option>
-          <option>Mexico</option>
+          <option>Mexico</option>  
           <option>Portu</option>
       </optgroup>
       <optgroup label="Asia pacefic">
@@ -55,7 +55,10 @@
         <option>Spain</option>
         <option>Italy</option>
       </optgroup>
+
     </select>
+    <span id="error1"></span>
+   
 
     <input type="text" class="contact-form-text" id="fname" onblur="validate2()"  placeholder="name">
     <span id="error2"></span>
@@ -67,7 +70,6 @@
      <span id="error5"></span>
     <br> <br><input type="submit" class="contact-form-text" id="id1" value="CREATE ACCOUNT">
      
-   
   </form>
 </div>
 

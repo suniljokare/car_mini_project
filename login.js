@@ -24,7 +24,7 @@ function validateForm(){
     let s4 = validate4();
     let s5 = validate5();
 
-    return (s1 && s2 &&s3 && s4 && s5 );
+    return (s1 &&s2 &&s3 && s4 && s5 );
  }
 
 function validate1(){
@@ -46,7 +46,7 @@ function validate2(){
     let fname=fnameNode.value; 
     errorNode2.innerHTML="";  
     if(fname===''){
-        errorNode2.innerHTML="First name is required";
+        errorNode2.innerHTML="name is required";
         fnameNode.style.border=errorBorder;
         return false;
 
@@ -61,7 +61,7 @@ function validate2(){
 function validate3(){
     let mobile = mobileNode.value;
     let regExp = new RegExp("^[0-9]{10}$");
-    errorNode4.innerHTML="";
+    errorNode3.innerHTML="";
 
     if(mobile===''){
         errorNode3.innerHTML="mobile  entry is reuqired";
